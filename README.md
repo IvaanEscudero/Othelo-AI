@@ -27,8 +27,8 @@ Este proyecto fue desarrollado para la asignatura de Sistemas Inteligentes de la
 ## Instalación
 
 **Requisitos:** 
-    * Compilador C++ con estándares modernos (g++).
-    * Entorno terminal con soporte de colores ANSI.
+* Compilador C++ con estándares modernos (g++).
+* Entorno terminal con soporte de colores ANSI.
 
 ### 1. Clonar el repositorio
 
@@ -57,12 +57,12 @@ Por defecto, el programa mostrará el tablero en cada turno, indicando el movimi
 ## IA y Estrategias
 
 ### 1. Algoritmos de Búsqueda:
-El proyecto implementa 2 estrategias principales en `heuristic.cpp`:
+* El proyecto implementa 2 estrategias principales en `heuristic.cpp`:
     * **Minimax:** Evalúa todos los nodos posibles hasta la profundidad límite.
     * **Alpha-Beta:** Reduce el espacio de búsqueda ignorando ramas que no afectarán la decisión final (implementado en `alphabeta.cpp`, intercambiable en el `main`).
 
 ### 2. Funciones heurísticas (`h`)
-La función de evaluación `h(Player pl, Board d)` determina qué tan bueno es un estado del tablero para un jugador.
+* La función de evaluación `h(Player pl, Board d)` determina qué tan bueno es un estado del tablero para un jugador.
     * **Alice (Posicional):**
         * Prioriza ocupar las esquinas, ya que son posiciones estables que no pueden ser flanqueadas.
         * Penaliza las casillas adyacentes a las esquinas para evitar entregar la esquina al oponente.
@@ -76,8 +76,8 @@ La función de evaluación `h(Player pl, Board d)` determina qué tan bueno es u
 
 * **otello_test.cpp:** Archivo principal. Gestiona el bucle del juego y alterna turnos.
 * **otello.cpp / .h:** Lógica del juego. Define el tablero `Board`, las fichas, validación de movimientos y renderizado.
-* **minimax.cpp / .h:** Implementación del algoritmo `Minimax`estándar.
-* **alphabeta.cpp / .h:** Implementación del algoritmo `Minimax` con poda `Alpha-Beta`.
+* **minimax.cpp / .h:** Implementación del algoritmo *Minimax* estándar.
+* **alphabeta.cpp / .h:** Implementación del algoritmo *Minimax* con poda *Alpha-Beta*.
 * **heuristic.cpp / .h:** Contiene la lógica de evaluación estática del tablero para Alice y Bob.
 * **makefile:** Automatización de la compilación del programa.
 
