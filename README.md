@@ -6,7 +6,7 @@ El núcleo del proyecto se centra en la toma de decisiones mediante algoritmos d
 
 <p align="center">
   <img src="tablero_inicial.png" alt="Tablero inicial">
-  <img src="tablero_en_juego.png" alt="Tablero en juego">
+  <img src="" alt="Tablero en juego">
   <img src="tablero_final.png" alt="Tablero final">
 </p>
 
@@ -76,8 +76,8 @@ Por defecto, el programa mostrará el tablero en cada turno, indicando el movimi
 
 * **otello_test.cpp:** Archivo principal. Gestiona el bucle del juego y alterna turnos.
 * **otello.cpp / .h:** Lógica del juego. Define el tablero `Board`, las fichas, validación de movimientos y renderizado.
-* **minimax.cpp / .h:** Implementación del algoritmo *Minimax* estándar.
-* **alphabeta.cpp / .h:** Implementación del algoritmo *Minimax* con poda *Alpha-Beta*.
+* **minimax.cpp / .h:** Implementación del algoritmo `Minimax` estándar.
+* **alphabeta.cpp / .h:** Implementación del algoritmo `Minimax` con poda `Alpha-Beta`.
 * **heuristic.cpp / .h:** Contiene la lógica de evaluación estática del tablero para Alice y Bob.
 * **makefile:** Automatización de la compilación del programa.
 
