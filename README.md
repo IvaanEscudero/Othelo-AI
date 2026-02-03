@@ -52,7 +52,7 @@ make
 ./otello_test
 ```
 * Por defecto, el programa mostrará el tablero en cada turno, indicando el movimiento realizado, la puntuación heurística calculada y el estado final del juego.
-    * **Nota:** Puedes ajustar la profundidad de búsqueda modificando la variable `chosen_depth` en el archivo `otello_test.cpp` (por defecto es 2).
+* **Nota:** Puedes ajustar la profundidad de búsqueda modificando la variable `chosen_depth` en el archivo `otello_test.cpp` (por defecto es 2).
 
 ## IA y Estrategias
 
