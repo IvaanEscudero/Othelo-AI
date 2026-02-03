@@ -6,7 +6,7 @@ El núcleo del proyecto se centra en la toma de decisiones mediante algoritmos d
 
 <p align="center">
   <img src="tablero_inicial.png" alt="Tablero inicial">
-  <img src="" alt="Tablero en juego">
+  <img src="tablero_en_juego.png" alt="Tablero en juego">
   <img src="tablero_final.png" alt="Tablero final">
 </p>
 
